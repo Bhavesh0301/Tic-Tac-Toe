@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tic tac toe</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Syne+Mono&amp;display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h1>Tic Tac Toe</h1>
+    <button id="button">lets play</button>
+    <div id="mainbox">
+        <div id="column1">
+            <div class="smallbox" id="box1">
+            </div>
+            <div class="smallbox" id="box4"></div>
+            <div class="smallbox" id="box7"></div>
+        </div>
+        <div id="column2">
+            <div class="smallbox" id="box2"> </div>
+            <div class="smallbox" id="box5"></div>
+            <div class="smallbox" id="box8"></div>
+        </div>
+        <div id="column3">
+            <div class="smallbox" id="box3"></div>
+            <div class="smallbox" id="box6"></div>
+            <div class="smallbox" id="box9"></div>
+        </div>
+    </div>
+    <div id="scorekeeper">
+        <div id=person>
+            <div>
+                Person
+            </div>
+            <div class="score" id="personscore">
+                0
+            </div>
+        </div>
+        <div id=draw>
+            <div>
+                Draw
+            </div>
+            <div class="score" id="drawscore">
+                0
+            </div>
+        </div>
+        <div id="computer">
+            <div>
+                Computer
+            </div>
+            <div class="score" id="computerscore">
+                0
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
